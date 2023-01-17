@@ -9,7 +9,7 @@ import com.cars.api.dto.CarDTO;
 
 @RestController
 @RequestMapping("/api/cars")
-public class CarsController {
+public class CarController {
 
     @PostMapping
     public void create(@RequestBody CarDTO req) {
